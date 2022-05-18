@@ -88,13 +88,13 @@ class _LoginScreenState extends State<LoginScreen> {
               TextFormField(
                 controller: _passwordController,
               ),
-              ElevatedButton(
-                onPressed: () {
-                  BlocProvider.of<LoginBloc>(context)
-                      .add(LoginDoEvent(p12: ECP_FILE, password: "Qwerty12"));
-                },
-                child: Text("Submit"),
-              ),
+              // ElevatedButton(
+              //   onPressed: () {
+              //     BlocProvider.of<LoginBloc>(context)
+              //         .add(LoginDoEvent(p12: ECP_FILE, password: "Qwerty12"));
+              //   },
+              //   child: Text("Submit"),
+              // ),
             ],
           ),
         ),
